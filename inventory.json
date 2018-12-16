@@ -1,0 +1,260 @@
+{
+  "pumps": [
+    "pump1": 
+    "in": "Large SMS M",
+    "out": "Large SMS M"
+  ],
+  "valves": [
+    "v1": {
+      "type": "SMS",
+      "in": "M",
+      "out": "M",
+      "quantity": 5,
+      "size": "small"
+    },
+    "v2": {
+      "type": "SMS",
+      "in": "M",
+      "out": "M",
+      "size": "small",
+      "quantity": 1,
+      "comment": "Should be one more?"
+    },
+    "v3": {
+      "type": "triclamp",
+      "in": "N/A",
+      "out": "N/A",
+      "size": "1.5 inch",
+      "quantity": 1,
+      "comment": "diaphragm"
+    },
+    "v4": {
+      "type": "SMS",
+      "in": "M",
+      "out": "M",
+      "quantity": 2,
+      "size": "large"
+    }
+  ],
+  "pipes": [
+    "p1": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "out": "F large",
+      "parts":[
+        "1": {
+          "length": "37 cm"
+        }
+      ]
+    },
+    "p2": {
+      "diameter": "1.5 inch",
+      "type": "SMS",
+      "in": "F large",
+      "out": "F large",
+      "parts":[
+        "1": {
+          "length": "40 cm",
+          "turn": "E"
+        },
+        "2": {
+          "length": "7 cm"
+        }
+      ]
+    },
+    "p3": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "M small",
+      "out": "F small",
+      "parts":[
+        "1": {
+          "length": "42 cm",
+          "turn": "W"
+        },
+        "2": {
+          "length": "34 cm",
+          "turn": "U,W"
+        },
+        "3": {
+          "length": "10 cm",
+          "turn": "D,S"
+        }
+      ]
+    },
+    "p4": {
+      "diameter": "1 inch",
+      "type": "SMS/ copper ",
+      "in": "F small",
+      "out": "two cupper",
+      "parts":[
+        "1": {
+          "length": "6 cm",
+          "turn": "D"
+        },
+        "2": {
+          "length": "10 cm",
+          "turn": "E"
+        },
+        "3": {
+          "length": "21 cm",
+          "turn": "N"
+        },
+        "4": {
+          "length": "63 cm",
+          "turn": "E, U"
+        },
+        "5": {
+          "length": "10 cm",
+          "turn": "threeway: S,E"
+        },
+        "6_S": {
+          "length": "8 cm"
+        },
+        "6_E": {
+          "length": "6 cm",
+          "turn": "S"
+        }
+      ]
+    },
+    "p5": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "comment": "in angled, UW",
+      "out": "M small",
+      "parts":[
+        "1": {
+          "length": "4 cm",
+          "turn": "N"
+        },
+        "3": {
+          "length": "46 cm",
+          "turn": "U"
+        },
+        "4": {
+          "length": "144 cm",
+          "turn": "N"
+        }
+      ]
+    },
+    "p6": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "out": "F small",
+      "parts":[
+        "1": {
+          "length": "17 cm",
+          "turn": "N"
+        },
+        "2": {
+          "length": "47 cm",
+          "turn": "W"
+        },
+        "3": {
+          "length": "16 cm",
+          "turn": "U"
+        },
+        "4": {
+          "length": "11 cm",
+          "turn": "S"
+        }
+      ]
+    },
+    "p7": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "pipe only",
+      "out": "F small",
+      "parts":[
+        "1": {
+          "length": "5 cm",
+          "turn": "W"
+        },
+        "2": {
+          "length": "96 cm",
+          "turn": "N"
+        },
+        "3": {
+          "length": "78 cm",
+          "turn": "D"
+        },
+        "4": {
+          "length": "45 cm",
+          "turn": "W"
+        },
+        "5": {
+          "length": "14 cm",
+          "turn": "N"
+        },
+        "6": {
+          "length": "11 cm",
+          "turn": "S"
+        }
+      ]
+    },
+    "p8": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "out": "2 F small",
+      "parts":[
+        "1": {
+          "length": "6 cm",
+          "turn": "N",
+          "comment": "three way with therm"
+        },
+        "2": {
+          "length": "138 cm",
+          "turn": "U",
+          "comment": "three way with plug"
+        },
+        "3": {
+          "length": "21 cm",
+          "turn": "E"
+        },
+        "4": {
+          "length": "129 cm",
+          "turn": "threeway N,E"
+        },
+        "5_N": {
+          "length": "3 cm"
+        },
+        "5_E": {
+          "length": "16 cm"
+        }
+      ]
+    },
+    "p9": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "out": "F small",
+      "parts":[
+        "1": {
+          "length": "38 cm",
+          "turn": "N"
+        },
+        "2": {
+          "length": "57 cm",
+          "turn": "W"
+        },
+        "3": {
+          "length": "6 cm"
+        }
+    },
+    "p10": {
+      "diameter": "1 inch",
+      "type": "SMS",
+      "in": "F small",
+      "out": "2, F small, M large",
+      "parts":[
+        "1": {
+          "turn": "threeway W,E"
+        }
+      ]
+    }
+  ]
+}

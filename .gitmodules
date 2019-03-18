@@ -1,3 +1,3 @@
 [submodule "lib/rbpi"]
 	path = lib/rbpi
-	url = git@github.com:saarbastler/library.scad.git
+	url = git@github.com:BryggansBryggeri/library.scad.git
